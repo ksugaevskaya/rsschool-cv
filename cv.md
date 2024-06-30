@@ -20,12 +20,12 @@ if (type === "circle") {return 3.14*(r**2)}
 if (type === "sphere") {return 4*3.14*(r**2)}
 ```
 ## Education
-* _BS in Linguistics, English Faculty, Theoretical and Applied Linguistics Minsk State Linguistic University, Belarus, 2018_ 
+* ___BS in Linguistics, English Faculty, Theoretical and Applied Linguistics Minsk State Linguistic University, Belarus, 2018___ 
     + Practically Speaking Conversational English Course with Native Speakers 2015
     + Practically Speaking Conversational English Course with Native Speakers 2016
     + Practically Speaking Conversational Chinese Course with Native Speakers 2017
     + Practically Speaking Conversational Chinese Course with Native Speakers 2018
-* _RS School, Frontend Development Course, Poland, 2024_
+* ___RS School, Frontend Development Course, Poland, 2024___
 ## Languages 
 __English__ - C2 
 __Chineese__ - B1
