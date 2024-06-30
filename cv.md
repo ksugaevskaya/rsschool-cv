@@ -27,10 +27,7 @@ if (type === "sphere") {return 4*3.14*(r**2)}
     + Practically Speaking Conversational Chinese Course with Native Speakers 2018
 * ___RS School, Frontend Development Course, Poland, 2024___
 ## Languages 
-__English__ - C2 
-
-__Chineese__ - B1
-
-__German__ - B1 
-
-__Polish__ - B1
+* __English__ - C2 
+* __Chineese__ - B1
+* __German__ - B1 
+* __Polish__ - B1
