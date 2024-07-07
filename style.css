@@ -1,0 +1,97 @@
+.column {
+  flex-direction: row;
+  display: flex;
+}
+.column-left {
+  width: 40%;
+  padding: 32px;
+}
+.column-right {
+  width: 60%;
+  padding: 32px;
+  background-color: #f5ece5;
+}
+body {
+  color: #6a6a6a;
+  line-height: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  color: black;
+  text-transform: uppercase;
+}
+h1 {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  font-weight: 800;
+  font-style: normal;
+}
+section {
+  border-bottom: 1px #6a6a6a solid;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
+}
+.padding {
+  padding-bottom: 6px;
+  padding-top: 6px;
+}
+.fullname {
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.role {
+  margin-top: 6px;
+  text-transform: uppercase;
+}
+.avatar {
+  border-radius: 16px;
+  width: 50%;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.position {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.space {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.item {
+  display: flex;
+}
+.padding-right {
+  padding-right: 4px;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
