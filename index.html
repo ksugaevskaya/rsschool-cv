@@ -13,7 +13,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header center-view">
 
     <h2>Ksenia Gaevskaya</h2>
     <nav>
@@ -24,7 +24,7 @@
       </ul>
     </nav>
   </header>
-  <main class="column">
+  <main class="column center-view">
     <div class="column-left">
       <section class="center">
         <img class="avatar" src="./Ksenia_1.png"
@@ -36,13 +36,9 @@
       <section>
         <h2>Summary</h2>
         <p>
-          I am a fast and accurate learner, with a keen eye for details. I am able to take up the responsibility of
-          new
-          challenges and have the enthusiasm and determination to ensure that I can make a success of them. As a
-          skilled,
-          initiative and promising person, completed my Bachelor’s degree at Minsk State Linguistic University, I
-          consider
-          myself dedicated, well organized, laborious and well-qualified for the Junior Front-end Development role.
+          Frontend Engineer passionate about crafting intuitive, high-quality user interfaces. Detail-oriented with a
+          strong foundation in React, TypeScript, and responsive design. Committed to delivering performant applications
+          and solving complex problems effectively.
         </p>
       </section>
 
@@ -51,10 +47,16 @@
         <ul>
           <li>HTML</li>
           <li>CSS</li>
-          <li>Markdown</li>
-          <li>Git/GitHub</li>
-          <li>VSCode</li>
-          <li>JSON</li>
+          <li>JS</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Redux Toolkit
+          <li>RTK Query</li>
+          <li>Docker</li>
+          <li>SQL</li>
+          <li>RDBMS</li>
+          <li>DBeaver</li>
+          <li>Mode.js</li>
         </ul>
       </section>
 
@@ -80,62 +82,97 @@
 
     </div>
     <div class="column-right">
+      <div>
+        <h2>Projects:</h2>
+        <div>
+          <h3>GRACE</h3>
+          Grace - a Single Page Application for an online vintage jewelry store built with Vanilla
+          JavaScript. Implemented client-side routing using the Browser History API, dynamic data loading via Fetch
+          API, and state persistence with sessionStorage. Developed catalog browsing, product detail views, and
+          shopping
+          cart logic with modular, component-like structure. Added an authentication flow with access and refresh
+          tokens.
+          Focused on clean architecture, reusable UI logic, and smooth navigation without page reloads.
 
-      <section>
-        <h2>Projects</h2>
-        <p> Working as a solo developer. I've been working for a small pet project for RS school, responsible for
-          creating
-          a CV aimed to develop and improve technical skills working with Markdown, Git, VSCode, and GitHub
-          deployment.
-          This project could be found at: <a href="https://ksugaevskaya.github.io/rsschool-cv/cv">rsschool-cv</a></p>
-      </section>
+          <p><b>TECH STACK:</b> <i>Vanilla
+              JavaScript, HTML, CSS, REST API</i></p>
+        </div>
+        <div>
+          <h3>REST CLIENT</h3>
+          <p> I implemented a React-based single-page REST client application that is similar to Postman as a final
+            Rolling
+            Scopes School project. I implemented user registration and authentication with protected routes, client-side
+            routing with lazy-loaded pages, and a modular component architecture. I helped to built an interactive
+            request
+            constructor supporting multiple HTTP methods, headers, and request body, integrated asynchronous API calls,
+            and implemented structured response viewing with status and data formatting. I added request history with
+            persistence, reusable form and layout components, internationalization support, error handling, and code
+            quality tooling with linting and automated tests, focusing on clean architecture and maintainable code.
 
-      <section>
-        <h2>Code example</h2>
-        <pre class="no-margin">
+          <p><b>TECH STACK:</b> <i>
+              TypeScript, React, React Router, Tailwind, Firebase</i></p>
+
+        </div>
+        <section>
+          <h2>Code example</h2>
+          <pre class="no-margin">
             <code>
-// var type = "circle", r = 3, s = 3.14 * (3**2)
-if (type === "circle") {return 3.14*(r**2)}
-if (type === "sphere") {return 4*3.14*(r**2)}
-            </code>
+Array.prototype.filter = function(callback, thisArg) {
+  let result = [];
+  let length = this.length; 
+
+  for (let i = 0; i &lt; length; i++) {
+    if (i in this) {
+      if (callback.call(thisArg, this[i], i, this)) {
+        result.push(this[i]);
+      }
+    }
+  }
+  return result;
+}; </code>
         </pre>
-      </section>
+        </section>
+        <section>
+          <h2>Education</h2>
+          <ul>
+            <li> <b> <i> BS in Linguistics, English Faculty, Theoretical and Applied Linguistics Minsk State Linguistic
+                  University, Belarus, 2018:</i></b>
+              <ul class="padding">
+                <li>Practically Speaking Conversational English Course with Native Speakers 2015, Belarus</li>
+                <li>Practically Speaking Conversational English Course with Native Speakers 2016, Belarus</li>
+                <li>Practically Speaking Conversational Chinese Course with Native Speakers 2017, China</li>
+                <li>Practically Speaking Conversational Chinese Course with Native Speakers 2018, China</li>
+              </ul>
+            </li>
+            <li> <b><i>RS School,
+                  JS/FE PRE-SCHOOL 2024Q2 (JAVASCRIPT), 2024 </i></b></li>
+            <li> <b><i>RS School,
+                  JAVASCRIPT/FRONT-END 2024Q4, 2024 </i></b></li>
+            <li> <b><i>RS School,
+                  REACT 2025 Q3, 2025 </i></b></li>
 
+          </ul>
+        </section>
 
-      <section>
-        <h2>Education</h2>
-        <ul>
-          <li> <b> <i> BS in Linguistics, English Faculty, Theoretical and Applied Linguistics Minsk State Linguistic
-                University, Belarus, 2018:</i></b>
-            <ul class="padding">
-              <li>Practically Speaking Conversational English Course with Native Speakers 2015, Belarus</li>
-              <li>Practically Speaking Conversational English Course with Native Speakers 2016, Belarus</li>
-              <li>Practically Speaking Conversational Chinese Course with Native Speakers 2017, China</li>
-              <li>Practically Speaking Conversational Chinese Course with Native Speakers 2018, China</li>
-            </ul>
-          </li>
-          <li> <b><i>RS School, Frontend Development Course, Poland, 2024 </i></b></li>
-        </ul>
-      </section>
-
-      <section>
-        <h2>Languages</h2>
-        <ul>
-          <li><b>English</b> - C2</li>
-          <li><b>Chinese</b> - B1</li>
-          <li><b>German</b> - B1</li>
-          <li><b>Polish</b> - B2</li>
-        </ul>
-      </section>
+        <section>
+          <h2>Languages</h2>
+          <ul>
+            <li><b>English</b> - C2</li>
+            <li><b>Chinese</b> - B1</li>
+            <li><b>German</b> - B1</li>
+            <li><b>Polish</b> - B2</li>
+          </ul>
+        </section>
+      </div>
     </div>
   </main>
-  <footer class="position">
-    <a class="space" href="https://rs.school/courses/javascript-ru">
-      <img
+  <footer class="position center-view">
+    <a class="space" href="https://rs.school/courses/short-track">
+      <img class="rs-school-logo"
         src="https://raw.githubusercontent.com/rolling-scopes-school/tasks/34c6c5cbc96ec26fcfdb022d1a6f3b2641f0110c/tasks/cv/rs-school-logo.svg"
-        alt="rs school logo" width="240" height="240">
+        alt="rs school logo">
     </a>
-    <span class="space">2024</span>
+    <span class="space">2026</span>
     <a class="space" href="https://github.com/ksugaevskaya">Ksenia's Github</a>
 
   </footer>
